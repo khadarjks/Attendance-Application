@@ -1,0 +1,627 @@
+*
+
+{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+form
+
+{
+
+    width: 30%;
+
+    text-align: center;
+
+    margin-left: 100px;
+
+    margin-top: 60px;
+
+    height: 565px;
+
+    border-radius: 20px;
+
+    background-color: white;
+
+    box-shadow: 0px 0px 10px 2px rgba(188, 197, 197, 0.91); 
+
+}
+
+.logo
+
+{
+
+    font-family: 'Poppins', sans-serif;
+
+    color: rgba(43, 53, 65, 0.9);
+
+    
+
+}
+
+.logo img
+
+{
+
+    margin-top: 15px;
+
+}
+
+.logo h2
+
+{
+
+    margin-top: 15px;
+
+}
+
+.logo h3
+
+{
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+
+}
+
+.loginid label
+
+{
+
+    margin-left: -278px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: gray;
+
+    font-size:small;
+
+}
+
+.loginid input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+}
+
+.password label
+
+{
+
+    margin-left: -278px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: gray;
+
+    font-size:small;
+
+}
+
+.password input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+    /* border-color:rgb(129, 129, 224); */
+
+
+
+}
+
+.forgotpass label a
+
+{
+
+    text-decoration: none;
+
+    color:rgb(66, 66, 219);
+
+}
+
+.forgotpass label
+
+{
+
+    
+
+    font-family: 'Open Sans', sans-serif;
+
+    
+
+}
+
+.logins label a
+
+{
+
+    text-decoration: none;
+
+    color:rgb(66, 66, 219);
+
+}
+
+.logins label
+
+{
+
+    margin-left: 90px;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.div2
+
+{
+
+    display: flex;
+
+    width:83%;
+
+    justify-content: space-between;
+
+    margin: auto;
+
+}
+
+.login button
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-top: 20px;
+
+    width:335px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    background-color: rgba(56, 140, 224,1);
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.login button a
+
+{
+
+text-decoration: none;
+
+color: white;
+
+}
+
+.google .fa-google
+
+{
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+}
+
+.google a
+
+{
+
+text-decoration: none;
+
+color: black;
+
+}
+
+.google
+
+{
+
+    width: 70px;
+
+    height: 40px;
+
+    padding-top: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #dee2e6;
+
+}
+
+.fb .fa-facebook-square
+
+{
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+}
+
+.fb
+
+{
+
+    width: 70px;
+
+    height: 40px;
+
+    padding-top: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #dee2e6;
+
+}
+
+.fb a
+
+{
+
+text-decoration: none;
+
+color: black;
+
+}
+
+.yt .fa-youtube
+
+{
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+}
+
+.yt
+
+{
+
+    width: 70px;
+
+    height: 40px;
+
+    padding-top: 10px;
+
+    border-radius: 8px;
+
+    border: 1px solid #dee2e6;
+
+}
+
+.yt a
+
+{
+
+text-decoration: none;
+
+color: black;
+
+}
+
+.social
+
+{
+
+    display: flex;
+
+    width:70%;
+
+    justify-content: space-between;
+
+    margin: auto;
+
+    margin-top: 15px;
+
+}
+
+.div3 .ok button
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-top: 15px;
+
+    margin-bottom: 20px;
+
+    width:335px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    background-color: rgba(56, 140, 224,1);
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.div3 .otp label
+
+{
+
+    margin-left: -210px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: gray;
+
+    font-size:small;
+
+}
+
+.div3 .otp input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+}
+
+.div3 .submit button
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-top: 15px;
+
+    margin-bottom: 20px;
+
+    width:335px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    background-color: rgba(56, 140, 224,1);
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+.div3 .submit button a
+
+{
+
+color: white;
+
+text-decoration: none;
+
+}
+
+.div3 .backtologin label a
+
+{
+
+    text-decoration: none;
+
+    color:rgb(66, 66, 219);
+
+}
+
+.div3 .backtologin label
+
+{
+
+    margin-left: 230px;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.div3 .loginid input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+}
+
+.div3 .logo h2
+
+{
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.div3 .reenterpassword label
+
+{
+
+    margin-left: -150px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: gray;
+
+    font-size:small;
+
+}
+
+.div3 .reenterpassword input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+}
+
+.div3 .enterpassword input
+
+{
+
+    width: 330px;
+
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #dee2e6;
+
+    font-size: 14px;
+
+}
+.div3 .enterpassword label
+
+{
+
+    margin-left: -170px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    color: gray;
+
+    font-size:small;
+
+}
+
+
+@media screen and (max-width:500px)
+
+{
+
+
+
+    form
+
+    {
+
+        width: 100%;
+
+        margin: auto;
+
+        height: 560px;
+
+        border-radius: 20px;
+
+        background-color: white;
+
+        box-shadow: 0px 0px 10px 2px rgba(188, 197, 197, 0.91); 
+
+    }
+
+    .div2
+
+{
+
+    display: flex;
+
+    width:92%;
+
+    justify-content: space-between;
+
+    margin: auto;
+
+}
+
+
+
+}
+
+
+

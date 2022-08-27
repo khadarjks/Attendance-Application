@@ -1,0 +1,351 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.div4
+{
+ width:15%;
+ border: 1px solid #dee2e6;
+ height: 655px;
+}
+.div4 .header .logo
+{
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.div4 .user
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(78, 74, 74);
+}
+.div4 .user label
+{
+    margin-left: 10px;
+}
+.div4 .nav
+{
+    color: rgb(78, 74, 74);
+}
+.div4 .nav .home
+{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.div4 .nav .home li
+{
+    list-style: none;
+    margin-left: 12px;  
+}
+.div4 .nav .home li a
+{
+    text-decoration: none;
+    color:rgb(55, 55, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+.div4 .nav .feeds
+{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.div4 .nav .feeds li
+{
+    list-style: none;
+    margin-left: 16px;
+}
+.div4 .nav .feeds li a
+{
+    text-decoration: none;
+    color:rgb(55, 55, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+.div4 .nav .task
+{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.div4 .nav .task li
+{
+    list-style: none;
+    margin-left: 16px;
+}
+.div4 .nav .task li a
+{
+    text-decoration: none;
+    color:rgb(55, 55, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+.div4 .nav .leave
+{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.div4 .nav .leave li
+{
+    list-style: none;
+    margin-left: 10px;
+}
+.div4 .nav .leave li a
+{
+    text-decoration: none;
+    color:rgb(55, 55, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+.div4 .nav .helpdesk
+{
+    display: flex;
+    width:80%;
+    margin: auto;
+    margin-top: 25px;
+}
+.div4 .nav .helpdesk li
+{
+    list-style: none;
+    margin-left: 13px;
+}
+.div4 .nav .helpdesk li a
+{
+    text-decoration: none;
+    color:rgb(55, 55, 226);
+    font-family: 'Open Sans', sans-serif;
+}
+.div5 .headhome
+{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1000px repeat(2,auto);
+    grid-column-gap: 30px;
+}
+.top
+{
+    display: flex;
+}
+.div5
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(78, 74, 74);
+}
+.div5 .forms form
+{
+    width: 30%;
+    margin: auto;
+    padding-top: 35px;
+    margin-top: 100px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(188, 197, 197, 0.91); 
+}
+.div5 .signin button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width:100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 8px;
+    background-color: rgba(56, 140, 224,1);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.div5 .signin button a
+{
+    text-decoration: none;
+    color: white;
+}
+.div5 .signout button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width:100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 8px;
+    background-color: rgba(56, 140, 224,1);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.div5 .signout button a
+{
+    text-decoration: none;
+    color: white;
+}
+.top .div5 .forms form .date label
+{
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(78, 74, 74);
+}
+.div5 .day
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(78, 74, 74);
+}
+.div5 .time
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(78, 74, 74);
+}
+.div5 .handburger
+{
+    display:none;
+}
+.tb table
+{
+    margin-left:300px;
+    margin-top: 60px;
+    width:50%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+}
+.tb table thead
+{
+background-color: whitesmoke;
+}
+.tb table tbody tr
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+@media screen and (max-width:500px)
+{
+    .div5 .handburger
+    {
+        display:block;
+    }
+.div5 .headhome
+{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 250px repeat(3,auto);
+    grid-column-gap: 20px;
+}
+.headhome .tophome
+{
+    margin-left: 18px;
+}
+.headhome .bell, .off, .handburger
+{
+    margin-top: 10px;
+}
+.div5 .forms form
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(188, 197, 197, 0.91); 
+}
+.div4
+{
+    width:15%;
+    border: none;
+    z-index: 0;
+    display: none;
+}
+.div4 .user
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(78, 74, 74);
+}
+.div5 .signin button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width:100px;
+    height: 40px;
+    margin-top: 80px;
+    border-radius: 8px;
+    background-color: rgba(56, 140, 224,1);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.div5 .signin button a
+{
+    text-decoration: none;
+    color: white;
+}
+.div5 .signout button
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width:100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 80px;
+    border-radius: 8px;
+    background-color: rgba(56, 140, 224,1);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.div5 .signout button a
+{
+    text-decoration: none;
+    color: white;
+}
+.div5 .handburger:active .div4
+{
+    display: block;
+}
+.tb table
+{
+    margin-left:10px;
+    margin-top: 50px;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.tb table thead
+{
+background-color: whitesmoke;
+}
+.tb table tbody tr
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+}
