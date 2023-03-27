@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="div1">
-    <form>
+    <div class="staffs">
+    <form id="form">
     <div class="logo">
         <img src="assets/webdlogo.jpg" width="30%">
         <h2>Hello there! 👋</h2>
@@ -25,22 +25,22 @@
     </div>
     <div class="loginid">
         <label>Login ID</label><br>
-        <input type="text" name="loginid" placeholder="Employee Id" required>
+        <input type="text" name="loginid" placeholder="Employee Id" id="eid">
     </div>
     <div class="password">
         <label>Password</label><br>
-        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="password" placeholder="Password" id="epass">
     </div>
     <div class="div2">
     <div class="forgotpass">
-        <label><a href="forgotpassword.html">Forgot password?</a></label>
+        <label id="forgetpass">Forgot password?</label>
     </div>
     <div class="logins">
-        <label><a href="studentlogin.html">Student login</a></label>
+        <label id="stdlogin">Student login</a></label>
     </div>
 </div>
     <div class="login">
-        <button><a href="mainpage.html">Log in</a></button>
+        <button>Log in</button>
     </div>
     <div class="social">
     <div class="google">
@@ -55,5 +55,587 @@
 </div>
 </form>
 </div>
+
+
+<div class="students">
+    <form id="form2">
+    <div class="logo">
+        <img src="assets/webdlogo.jpg" width="30%">
+        <h2>Hello there! 👋</h2>
+        <h3><u>Student Login</u></h3>
+    </div>
+    <div class="loginid">
+        <label>Login ID</label><br>
+        <input type="text" name="loginid" placeholder="Student Id" id="sid">
+    </div>
+    <div class="password">
+        <label>Password</label><br>
+        <input type="password" name="password" placeholder="Password" id="spass">
+    </div>
+    <div class="div2">
+    <div class="forgotpass">
+        <label id="forgetpass2">Forgot password?</label>
+    </div>
+    <div class="logins">
+        <label id="stflogin">Staff login</label>
+    </div>
+</div>
+    <div class="login">
+        <button>Log in</button>
+    </div>
+    <div class="social">
+    <div class="google">
+        <i class="fa-brands fa-google"></i>
+    </div>
+    <div class="fb">
+        <i class="fa-brands fa-facebook-square"></i>
+    </div>
+    <div class="yt">
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+</div>
+</form>
+</div>
+
+<div class="forgot">
+    <form>
+    <div class="logo">
+        <img src="assets/webdlogo.jpg" width="30%">
+        <h2>Forgot password? That's okay! Lets change it 😊</h2>
+    </div>
+    <div class="loginid">
+        <label>Login ID</label><br>
+        <input type="text" name="loginid" placeholder="Enter your login ID" id="id">
+    </div>
+    <div class="ok">
+        <button id = "butn">Ok,got it!</button>
+    </div>
+    <div class="otp">
+        <label>One time password</label><br>
+        <input type="text" name="otp" placeholder="Enter your one time password" id="otp" disabled>
+    </div>
+    <div class="submit">
+        <button id="btn" disabled>Submit</button>
+    </div>
+    <div class="backtologin">
+        <label class="bcl">Back to login</label>
+    </div>
+</div>
+</form>
+</div>
+
+<div class="passchange">
+    <form>
+    <div class="logo">
+        <img src="assets/webdlogo.jpg" width="30%">
+        <h2>Change Your Password 😊</h2><br>
+    </div>
+    <div class="enterpassword">
+        <label>Enter your new password</label><br>
+        <input type="password" name="enterpassword" placeholder="New Password" id="pass">
+    </div>
+    <div class="reenterpassword">
+        <label>Re-enter your new password</label><br>
+        <input type="password" name="otp" placeholder="Confirm Password" id="repass">
+    </div>
+    <div class="submit">
+        <button id ="btncng">Submit</button>
+    </div>
+    <div class="backtologin">
+        <label class="bcl2">Back to login</label>
+    </div>
+</div>
+</form>
+</div>
+
+<div class="contop">
+<div class="top">
+    <div class="div4">
+    <div class="header">
+    <div class="logo">
+        <img src="assets/webdlogo.jpg" width="50%">
+    </div>
+    <div class="user">
+        <i class="fa-solid fa-circle-user"></i>
+        <label class="usrname">Username</label>
+    </div>
+    </div>
+    <div class="nav">
+        <div class="home">
+            <i class="fa-solid fa-house"></i><li><a href="">Home</a></li>
+        </div>
+        <div class="feeds">
+            <i class="fa-solid fa-rss"></i><li><a href="">Feeds</a></li>
+        </div>
+        <div class="task">
+            <i class="fa-brands fa-stack-overflow"></i><li><a href="">Task</a></li>
+        </div>
+        <div class="leave">
+            <i class="fa-solid fa-bell-slash"></i><li><a href="">Leave</a></li>
+        </div>
+        <div class="helpdesk">
+            <i class="fa-solid fa-circle-question"></i><li><a href="">Helpdesk</a></li>
+        </div>
+</div>
+</div>
+
+<div class="divisions">
+<div class="topdiv">
+    <div class="bell">
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div class="off">
+        <i class="fa-solid fa-power-off"></i>
+    </div>
+    <div class="handburger">
+    <i class="fa-solid fa-bars"></i>
+</div>
+</div>
+
+
+<div class="containers">
+<div class="container1">
+    <div class="tophome">
+        <h2>Home</h2>
+    </div>
+<div class="forms">
+    <form>
+        <div class="date">
+            <label class="dates"></label>  
+        </div>
+        <div class="day">
+            <label class="days"></label>
+        </div>
+        <div class="time">
+            <label class="times"></label>
+        </div>
+        <div class="sign">
+            <button class="signin">Sign in</button>
+            <button class="signout">Sign Out</button>
+        </div>
+    </form>
+</div>
+<div class="results">
+    <h3>Sign In Time:</h3>
+    <h3 class="sitime"></h3>
+    <h3>Sign Out Time:</h3>
+    <h3 class="sotime"></h3>
+    <h3>Worked Time:</h3>
+    <h3 class="wtime"></h3>
+</div>
+</div>
+<div class="container2">
+        <div class="tophome">
+            <h2>Feeds</h2>
+        </div>
+        <h1>yet to updated</h1>
+    </div>
+    <div class="container3">
+        <div class="tophome">
+            <h2>Task</h2>
+        </div>
+        <h1>yet to updated</h1>
+    </div>
+    <div class="container4">
+        <div class="tophome">
+            <h2>Leave</h2>
+        </div>
+        <h1>yet to updated</h1>
+    </div>
+    <div class="container5">
+        <div class="tophome">
+            <h2>Helpdesk</h2>
+        </div>
+        <h1>yet to updated</h1>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script>
+
+    let mainpage = document.querySelector(".contop");
+    let form = document.getElementById("form");
+    let usrname = document.querySelector(".usrname");
+
+    let user={
+        userid:"100",username:"Khadar",userpass:"khan",
+        userid2:"101",username2:"Irfan",userpass2:"khadar",
+    }
+
+    alert("login Id: 100 Password: khan")
+    form.addEventListener("submit",function valid(e)
+    {
+    e.preventDefault();
+    let eusername = document.querySelector("#eid");
+    let epassword = document.querySelector("#epass");
+    
+        if (eusername.value=="" || eusername.value==null)
+        {
+            alert("Enter the Employee Id");
+        }
+        else if (epassword.value=="" || epassword.value==null)
+        {
+            alert("Enter the Password");
+        }
+        else if ((eusername.value!=user.userid || epassword.value!=user.userpass) && (eusername.value!=user.userid2 || epassword.value!=user.userpass2))
+        {
+            alert("Employee Id & Password doesn't matched");
+            eusername.value="";
+            epassword.value="";
+            
+        }
+        else if((eusername.value==user.userid || epassword.value==user.userpass))
+        {
+            eusername.value="";
+            epassword.value="";
+            usrname.innerHTML=user.username;
+            stfdiv.style.display="none";
+            mainpage.style.display="block";
+        }    
+        else if((eusername.value==user.userid2 || epassword.value==user.userpass2))
+        {
+            eusername.value="";
+            epassword.value="";
+            usrname.innerHTML=user.username2;
+            stfdiv.style.display="none";
+            mainpage.style.display="block";
+        }    
+    
+
+    })
+
+
+    let stdlogin = document.querySelector("#stdlogin");
+    let stflogin = document.querySelector("#stflogin");
+    let stddiv = document.querySelector(".students");
+    let stfdiv = document.querySelector(".staffs");
+    let passchange = document.querySelector(".passchange");
+
+    stdlogin.addEventListener("click", ()=> {
+        
+        stfdiv.style.display="none";
+        // stddiv.style.add("appear");
+        stddiv.style.display="block";
+    })
+    stflogin.addEventListener("click", ()=> {
+        stddiv.style.display="none";
+        stfdiv.style.display="block";
+    })
+
+    let bcl=document.querySelector(".bcl");
+    let bcl2=document.querySelector(".bcl2");
+    bcl.addEventListener("click", ()=> {
+        stfdiv.style.display="block";
+    })
+    bcl2.addEventListener("click", ()=> {
+        stfdiv.style.display="block";
+    })
+
+    let forgetpass = document.querySelector("#forgetpass");
+    let forgetpass2 = document.querySelector("#forgetpass2");
+    let forgot = document.querySelector(".forgot");
+    forgetpass.addEventListener("click", ()=> {
+        
+        stfdiv.style.display="none";
+        forgot.style.display="block";
+    })
+    forgetpass2.addEventListener("click", ()=> {
+        
+        stddiv.style.display="none";
+        forgot.style.display="block";
+    })
+
+
+    let form2 = document.getElementById("form2");
+form2.addEventListener("submit",function valid(e)
+{
+e.preventDefault();
+let susername = document.querySelector("#sid");
+let spassword = document.querySelector("#spass");
+
+if (susername.value=="" || susername.value==null)
+        {
+            alert("Enter the Student Id");
+            
+        }
+        else if (spassword.value=="" || spassword.value==null)
+        {
+            alert("Enter the Password");
+        
+        }
+        else if ((susername.value!=user.userid || spassword.value!=user.userpass) && (susername.value!=user.userid2 || spassword.value!=user.userpass2))
+        {
+            alert("Student Id & Password doesn't matched");
+            susername.value="";
+            spassword.value="";
+        }
+        else if ((susername.value==user.userid || spassword.value==user.userpass))
+        {
+            susername.value="";
+            spassword.value="";
+            usrname.innerHTML=user.username;
+            stddiv.style.display="none";
+            mainpage.style.display="block";
+
+        }
+        else if ((susername.value==user.userid2 || spassword.value==user.userpass2))
+        {
+            susername.value="";
+            spassword.value="";
+            usrname.innerHTML=user.username2;
+            stddiv.style.display="none";
+            mainpage.style.display="block";
+
+        }
+})
+
+
+let username=document.querySelector("#id");
+        let otp=document.querySelector("#otp");
+        let butn=document.querySelector("#butn");
+        let btn=document.querySelector("#btn");
+
+        butn.addEventListener("click",(e)=> {
+            
+            e.preventDefault();
+            if(username.value =="" || username.value == null)
+            {
+                alert("Please Enter the Login Id")
+            }
+            else if ((username.value!=user.userid) && (username.value!=user.userid2))
+            {
+                alert("Please check the Login Id")
+            }
+            else
+            {
+                alert("Please enter OTP");
+                otp.disabled=false;
+                otp.focus();
+                btn.disabled=false;
+            }
+            
+        })
+
+        btn.addEventListener("click",(e)=> {
+            e.preventDefault();
+            if(otp.value =="" || otp.value == null)
+            {
+                alert("Please enter the OTP");
+            }
+            else
+            {
+                forgot.style.display="none";
+                passchange.style.display="block";
+                otp.value="";
+            }
+        })
+
+        let pass = document.querySelector("#pass");
+    let repass = document.querySelector("#repass");
+    let btncng = document.querySelector("#btncng");
+
+    btncng.addEventListener("click",function changed(e)
+    {
+        e.preventDefault();
+        if (pass.value=="" || pass.value==null)
+        {
+            alert("Please Enter the New Password");
+        }
+        else if (repass.value=="" || repass.value==null)
+        {
+            alert("Please Re enter the New Password");
+        }
+        else if (pass.value!=repass.value)
+        {
+            alert("Password doesn't matched, Please enter the correct Password");
+            pass.value="";
+            repass.value="";
+        }
+        else if ((pass.value==repass.value) && (username.value==user.userid))
+        {
+            alert("Password Changed Successfully");
+            user.userpass=repass.value;
+            pass.value="";
+            repass.value="";
+            passchange.style.display="none";
+            stfdiv.style.display="block";
+            
+        }
+        else if ((pass.value==repass.value) && (username.value==user.userid2))
+        {
+            alert("Password Changed Successfully");
+            user.userpass2=repass.value;
+            pass.value="";
+            repass.value="";
+            passchange.style.display="none";
+            stfdiv.style.display="block";
+            
+        }
+    })
+
+
+    let home = document.querySelector(".home");
+    let feeds = document.querySelector(".feeds");
+    let task = document.querySelector(".task");
+    let leave = document.querySelector(".leave");
+    let helpdesk = document.querySelector(".helpdesk");
+    let cont1 = document.querySelector(".container1");
+    let cont2 = document.querySelector(".container2");
+    let cont3 = document.querySelector(".container3");
+    let cont4 = document.querySelector(".container4");
+    let cont5 = document.querySelector(".container5");
+
+    home.addEventListener("click",(e)=> {
+        e.preventDefault();
+        cont1.style.display="block";
+        cont2.style.display="none";
+        cont3.style.display="none";
+        cont4.style.display="none";
+        cont5.style.display="none";
+    })
+    feeds.addEventListener("click",(e)=> {
+        e.preventDefault();
+        cont2.style.display="block";
+        cont1.style.display="none";
+        cont3.style.display="none";
+        cont4.style.display="none";
+        cont5.style.display="none";
+    })
+    task.addEventListener("click",(e)=> {
+        e.preventDefault();
+        cont3.style.display="block";
+        cont1.style.display="none";
+        cont2.style.display="none";
+        cont4.style.display="none";
+        cont5.style.display="none";
+    })
+    leave.addEventListener("click",(e)=> {
+        e.preventDefault();
+        cont4.style.display="block";
+        cont1.style.display="none";
+        cont3.style.display="none";
+        cont2.style.display="none";
+        cont5.style.display="none";
+    })
+    helpdesk.addEventListener("click",(e)=> {
+        e.preventDefault();
+        cont5.style.display="block";
+        cont1.style.display="none";
+        cont3.style.display="none";
+        cont4.style.display="none";
+        cont2.style.display="none";
+    })
+
+    let hamburger = document.querySelector(".fa-bars");
+    let list = document.querySelector(".div4");
+
+    hamburger.addEventListener("click",()=> {
+        list.classList.toggle("show");
+    })
+    hamburger.addEventListener("mouseleave",()=> {
+        list.classList.remove("show");
+    })
+    
+    document.querySelector(".fa-power-off").addEventListener("click",()=> {
+        stfdiv.style.display="block";
+        mainpage.style.display="none";
+    })
+    
+
+    document.querySelector(".nav").addEventListener("click", () => {
+  list.classList.remove("show");
+})
+
+function tim() {
+let ar = ["january","February","March","April","May","June","July","August","September","October","November","December"]
+let ar1 = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+let date = new Date();
+let day = date.getDate();
+let days=ar1[date.getDay()];
+let month = ar[date.getMonth()];
+let year = date.getFullYear();
+let dates = day+" "+month+" "+year;
+let time = date.toLocaleTimeString();
+document.querySelector(".dates").innerHTML=dates;
+document.querySelector(".days").innerHTML=days;
+document.querySelector(".times").innerHTML=time;
+setTimeout(tim,1000);
+
+
+}tim();
+
+// let date = new Date();
+// let time = date.toLocaleTimeString();
+// alert('Run some function here');
+// let date2 = new Date();
+// alert('Run some function here');
+// let time2 = date2.toLocaleTimeString();
+// console.log(time);
+// console.log(time2);
+// console.log(date);
+// console.log(date2);
+// let diff = date2-date;
+// console.log(diff);
+
+let transdate;
+
+document.querySelector(".signin").addEventListener("click",(e)=>{
+    e.preventDefault();
+    let date = new Date();
+    let intime = date.toLocaleTimeString();
+    // alert('checking');
+    // console.log(intime);
+    // console.log(date);
+    document.querySelector(".sitime").innerHTML=intime;
+    transdate=date;
+    document.querySelector(".signin").style.display="none";
+    document.querySelector(".signout").style.display="block";
+}
+)
+
+document.querySelector(".signout").addEventListener("click",(e)=>{
+    e.preventDefault();
+    let date = new Date();
+    let outtime = date.toLocaleTimeString();
+    // alert('Checking');
+    // console.log(outtime);
+    // console.log(date);
+    document.querySelector(".sotime").innerHTML=outtime;
+    let diff=date-transdate;
+    let val = diff/1000;
+    // console.log(diff);
+    // console.log(diff/1000);
+    // console.log(Math.round(val));
+    let vals=Math.round(val);
+    if (vals<=60)
+    {
+        document.querySelector(".wtime").innerHTML=vals+"s";
+    }
+    else if (vals>=60){
+        min=vals*0.0166667;
+        mins=Math.round(min);
+        document.querySelector(".wtime").innerHTML=mins+"m"+vals+"s";
+    }
+    else if (vals>=3600){
+        min=vals*0.0166667;
+        mins=Math.round(min);
+        hrs=vals*0.000277778;
+        hrs=Math.round(hrs);
+        document.querySelector(".wtime").innerHTML=hrs+"h"+mins+"m"+vals+"s";
+    }
+
+    document.querySelector(".signin").style.display="block";
+    document.querySelector(".signout").style.display="none";
+}
+)
+
+
+</script>
+
 </body>
 </html>
